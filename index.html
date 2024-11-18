@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="colour.ico" type="image/x-icon">
+    <title>szinezes</title>
+</head>
+<body class="vh-100 d-flex justify-content-center align-items-center user-select-none">
+    <div class="d-flex flex-column w-25">
+        <div id="kepernyo" class="border-3 border-black mb-3"></div>
+        <div class="d-flex flex-row justify-content-center align-items-center mb-3">
+            <span id="pirosErtek" class="h2">0</span>
+            <input id="pirosCsuszka" type="range" class="form-range user-select-none" min="0" max="255" value="0" >
+            <span class="h2">255</span>
+        </div>
+        <div class="d-flex flex-row justify-content-center align-items-center mb-3">
+            <span id="zoldErtek" class="h2">0</span>
+            <input id="zoldCsuszka" type="range" class="form-range user-select-none" min="0" max="255" value="0"  >
+            <span class="h2">255</span>
+        </div>
+        <div class="d-flex flex-row justify-content-center align-items-center mb-3">
+            <span id="kekErtek" class="h2">0</span>
+            <input id="kekCsuszka" type="range" class="form-range " min="0" max="255" value="0" >
+            <span class="h2">255</span>
+        </div>
+    </div>
+    <script src="sricpt.js"></script>
+</body>
+</html>
